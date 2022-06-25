@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "emitDecoratorMetadata": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "target": "es5",
+    "module": "commonjs",
+    "declaration": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "rootDir": ".",
+    "outDir": "dist",
+    "strict": true,
+    "removeComments": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "lib": [
+      "dom",
+      "es2020",
+      "es2015",
+      "ESNext.String"
+    ],
+    "inlineSources": true,
+    "esModuleInterop": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "components/*": [
+        "src/components/*"
+      ],
+    }
+  },
+  "include": [
+    "src/**/*",
+    "resource/libs"
+  ],
+  "exclude": [
+    "./node_modules/*",
+    "lib",
+    "es"
+  ]
+}

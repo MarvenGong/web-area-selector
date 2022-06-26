@@ -1,6 +1,6 @@
 {
   "name": "web-area-selector",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "web page area selector that return rect area info",
   "main": "dist/index.js",
   "scripts": {

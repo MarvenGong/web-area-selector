@@ -4,13 +4,13 @@
     "resolveJsonModule": true,
     "experimentalDecorators": true,
     "target": "es5",
-    "module": "commonjs",
+    "module": "esnext",
     "declaration": true,
     "noImplicitAny": true,
     "strictNullChecks": true,
     "rootDir": ".",
     "outDir": "dist",
-    "strict": true,
+    "strict": false,
     "removeComments": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
@@ -18,15 +18,16 @@
     "moduleResolution": "node",
     "sourceMap": true,
     "lib": [
+      "es2017",
       "dom",
-      "es2020",
-      "es2015",
-      "ESNext.String"
+      "esnext",
+      "es2019"
     ],
     "inlineSources": true,
     "esModuleInterop": true,
     "jsx": "react",
     "baseUrl": ".",
+    "allowJs": true,
     "paths": {
       "@/*": [
         "src/*"

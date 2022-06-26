@@ -1,5 +1,6 @@
-import AreaSelector from '../index';
+import AreaSelector from '../../dist/index.js';
 const selectArea = async () => {
+  console.info(AreaSelector);
   const result = await AreaSelector.getInstance().init();
   alert(JSON.stringify(result));
 };

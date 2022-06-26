@@ -5,11 +5,13 @@ module.exports = {
   mode: 'development',
   entry: {
     index: path.resolve(__dirname, 'src/index.ts'),
-    demo: path.resolve(__dirname, 'src/demo/index.ts'),
+    demo: path.resolve(__dirname, 'src/demo/demo.ts'),
   },
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: '[name].js'
+    filename: '[name].js',
+    library: 'AreaSelector',
+    libraryTarget: 'umd'
   },
   resolve: {
     alias: {
@@ -20,13 +22,13 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.ts?$/,
-        loader: 'ts-loader'
+        test: /\.(jsx|tsx|js|ts)$/,
+        loader: 'ts-loader',
+        options: {
+          transpileOnly: true,
+        },
+        exclude: /node_modules/,
       },
-      {
-        test: /\.js?$/,
-        loader: 'babel-loader'
-      }
     ]
   },
   plugins: [

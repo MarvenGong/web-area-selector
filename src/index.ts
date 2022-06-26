@@ -1,1 +1,2 @@
-export * from './AreaSelector';
+import AreaSelector from './AreaSelector';
+export default AreaSelector;

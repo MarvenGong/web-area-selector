@@ -1,4 +1,4 @@
-import AreaSelector from '../AreaSelector';
+import AreaSelector from '../index';
 const selectArea = async () => {
   const result = await AreaSelector.getInstance().init();
   alert(JSON.stringify(result));

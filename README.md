@@ -4,7 +4,7 @@
 
 # 效果图
 
-![web-area-selector](https://marven.cn-bj.ufileos.com/web-area-select.gif)
+![web-area-selector](https://marven.cn-bj.ufileos.com/web-area-select01.gif)
 
 # 使用方法
 

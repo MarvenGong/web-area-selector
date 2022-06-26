@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/MarvenGong/web-area-selector/issues"
   },
-  "homepage": "https://github.com/MarvenGong/web-area-selector#readme",
+  "homepage": "https://marvengong.github.io/web-area-selector/",
   "devDependencies": {
     "@babel/core": "^7.18.5",
     "babel-loader": "^8.2.5",

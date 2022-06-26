@@ -14,7 +14,7 @@
 npm i --save web-area-selector
 ```
 
-或者
+或
 
 ```js
 yarn add web-area-selector
@@ -72,4 +72,4 @@ document.addEventListener("keydown", (event) => {
 });
 ```
 
-> PS: 建议通过单例模式来操作，以免造成不必要的麻烦
+> PS: 建议通过单例模式来使用，以免造成不必要的麻烦
